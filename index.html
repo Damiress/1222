@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-text="page_title">Форма отправки проблем</title>
+    <!-- Пути для GitHub Pages (файл в корне репозитория) -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1 data-text="form_title">Сообщить о проблеме</h1>
+        
+        <form id="problemForm">
+            <div class="form-group">
+                <label for="mainReason" data-text="labels.main_reason">Основная причина проблемы:</label>
+                <select id="mainReason" required>
+                    <option value="" data-text="placeholders.select_reason">Выберите причину</option>
+                    <!-- Основные причины будут загружены через JavaScript -->
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="additionalDetails" data-text="labels.additional_details">Дополнительное объяснение:</label>
+                <select id="additionalDetails" required disabled>
+                    <option value="" data-text="placeholders.first_select_reason">Сначала выберите основную причину</option>
+                    <!-- Детали будут загружены через JavaScript -->
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="description" data-text="labels.description">Описание проблемы:</label>
+                <textarea id="description" data-placeholder="placeholders.description" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn" data-text="submit_button">Отправить</button>
+        </form>
+        
+        <div id="jsonOutput" class="json-output"></div>
+    </div>
+
+    <!-- Пути для GitHub Pages -->
+    <script src="static/js/script.js"></script>
+</body>
+</html>

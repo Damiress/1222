@@ -1,0 +1,76 @@
+{
+  "page_title": "Форма отправки проблем",
+  "form_title": "Сообщить о проблеме",
+  "labels": {
+    "main_reason": "Основная причина проблемы:",
+    "additional_details": "Дополнительное объяснение:",
+    "description": "Описание проблемы:"
+  },
+  "placeholders": {
+    "select_reason": "Выберите причину",
+    "first_select_reason": "Сначала выберите основную причину",
+    "select_details": "Выберите детали",
+    "description": "Опишите проблему подробно..."
+  },
+  "submit_button": "Отправить",
+  "main_reasons": {
+    "telegram": "Телеграмм",
+    "computer": "Компьютер",
+    "okta": "Окта",
+    "website": "Сайт",
+    "network": "Сеть",
+    "software": "Программное обеспечение",
+    "other": "Другое"
+  },
+  "details": {
+    "telegram": {
+      "login_issues": "Проблемы с входом",
+      "message_delivery": "Голосовые сообщения не записываются",
+      "block_tg": "Аккаунт заморожен/заблокирован",
+      "new_tg": "Аккаунт вылетел/удален",
+      "bot_not_working": "Бот не отвечает"
+    },
+    "computer": {
+      "headphone_off": "Не работают наушники/микрофон",
+      "no_internet": "Нет интернета",
+      "slow_connection": "Медленное соединение",
+      "power_off": "Не включается",
+      "frozen_pc": "Зависание ПК",
+      "software_crash": "Зависание программ",
+      "windows_update": "Обновление Windows",
+      "failure_error": "Сбой/ошибка",
+      "slow_performance": "Медленная работа"
+    },
+    "okta": {
+      "login_failed": "Не загружается/не входит в профиль",
+      "okta_password_login": "Нет логина, пароля",
+      "new_profile": "Нужен новый профиль",
+      "new_proxy": "Нужен новый прокси",
+      "sync_problems": "Проблемы синхронизации"
+    },
+    "website": {
+      "mamba": "Мамба",
+      "loveplanet": "Ловпланет",
+      "teamo": "Теамо",
+      "tiamo": "Тиамо",
+      "admin_panel": "Админ панель",
+      "api_issues": "Проблемы с API"
+    },
+
+    "software": {
+      "installation_error": "Ошибка установки",
+      "update_failed": "Не удается обновить",
+      "license_expired": "Истекла лицензия"
+
+    },
+    "other": {
+      "unknown_error": "Неизвестная ошибка",
+      "need_consultation": "Нужна консультация"
+    }
+  },
+  "json_fields": {
+    "main_reason": "Основная причина проблемы",
+    "additional_explanation": "Дополнительное объяснение",
+    "text": "Текст"
+  }
+}
